@@ -44,7 +44,7 @@ export default class Playlist extends Component<{ json: PlaylistData[] }> {
                             return (
                                 <a
                                     href={v.redirect_uri}
-                                    className="mt-6 w-96 border p-10 hover:text-blue-600 focus:text-blue-600"
+                                    className="mt-6 w-96 rounded-lg border p-10 hover:text-white focus:text-whiteblue-600"
                                     id="playlist-tile"
                                 >
                                     <p className="mt-4 text-xl text-bold">
